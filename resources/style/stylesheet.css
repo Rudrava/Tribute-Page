@@ -1,0 +1,92 @@
+/*Reset*/
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: blueviolet ;
+}
+main{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    margin: 30px 10px;
+    padding: 20px;
+    background-color: pink;
+    border: 1px solid pink ;
+    border-radius: 5px;
+}
+
+#title{
+    color: red;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 0px 15px 0px;
+}
+
+#title p{
+    color:green;
+}
+#img-div{
+    margin:10 auto;
+    padding: 15px;
+    background-color: lightgrey;
+    border: 1px solid pink ;
+    border-radius: 10px;
+}
+#img-caption{
+    padding: 5px;
+    margin:auto;
+    color: rgb(255,50,100);
+}
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-caption{
+    margin: 0 auto;
+    text-align: center;
+}
+
+#tribute-info{
+    padding: 20px;
+    margin:20px 0px;
+    background-color: lightgreen;
+    border-radius: 10px;
+}
+
+#list{
+    padding: 10px;
+}
+#list h3{
+    text-align: center;
+    padding: 20px;
+    margin:auto;
+}
+
+#quote{
+    background-color: rgb(200,50,80);
+    padding: 20px;
+    margin:10px auto;
+    text-align: center;
+    color: rgb(50,150,255);
+    border-radius: 10px;
+}
+#learn-more{
+    padding:10px;
+    margin 10 auto;
+    text-allign:center;
+}
+a:link, a:visited {
+  color: (internal value);
+  text-decoration: none;
+  cursor: cell;
+}
+
+a:link:active, a:visited:active {
+  color: grey;
+}
